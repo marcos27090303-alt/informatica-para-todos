@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+  <title>Guia do Windows</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Guia do Windows para Iniciantes</h1>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="atalhos.html">Atalhos</a>
+      <a href="hardware.html">Hardware</a>
+      <a href="software.html">Software</a>
+      <a href="instalacao.html">Instalação</a>
+      <a href="seguranca.html">Segurança</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bem-vindo ao Guia do Windows</h2>
+
+    <section class="menu-cards"> 
+
+    <a href="atalhos.html" class="menu-card atalhos">
+      <h3>Atalhos</h3>
+    </a>
+
+    <a href="hardware.html" class="menu-card hardware">
+      <h3>Hardware</h3>
+    </a>
+
+    <a href="software.html" class="menu-card software">
+      <h3>Software</h3>
+    </a>
+
+    <a href="instalacao.html" class="menu-card instalacao">
+      <h3>Instalação</h3>
+    </a>
+
+    <a href="seguranca.html" class="menu-card seguranca">
+      <h3>Segurança</h3>
+    </a>
+    </section>
+<h4>Avaliação do Projeto</h4>
+
+<p>
+  Sua opinião é importante para sabermos se o conteúdo foi útil.
+</p>
+
+<form id="form-avaliacao">
+
+  <label>O conteúdo foi útil?</label>
+
+  <div class="rating">
+    <span class="star" data-value="1">&#9733;</span>
+    <span class="star" data-value="2">&#9733;</span>
+    <span class="star" data-value="3">&#9733;</span>
+    <span class="star" data-value="4">&#9733;</span>
+    <span class="star" data-value="5">&#9733;</span>
+  </div>
+
+  <input type="hidden" id="notaSelecionada">
+
+  <label>Comentário:</label>
+  <textarea id="comentario" rows="3"></textarea>
+
+  <button type="submit">Enviar Avaliação</button>
+
+</form>
+
+<p id="mensagem"></p>
+<p id="resultado"></p>
+
+  </main>
+
+  <script src="js/avaliacao.js"></script>
+
+</body>
+</html>

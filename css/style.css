@@ -1,0 +1,319 @@
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+margin: 0;
+background: linear-gradient(to right, #f4f6f9, #e9eef5);
+}
+
+header {
+background-color: #0078D7;
+color: white;
+padding: 20px;
+}
+
+header h1 {
+margin: 0;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-right: 15px;
+font-weight: 500;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+main {
+padding: 30px;
+}
+.menu-cards {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+margin-top: 30px;
+}
+
+.menu-card {
+position: relative;
+flex:1 1 250px;
+max-width: 300px;
+height: 350px;
+border-radius: 12px;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: bold;
+background-size: cover;
+background-position: center;
+transition: 0.3s ease;
+justify-content: center; ;
+}
+
+.menu-card::after {
+content: "";
+position: absolute;
+inset: 0;
+background: rgba(0, 0, 0, 0.4);
+}
+
+.menu-card h3 {
+position: relative;
+z-index: 1;
+}
+
+.menu-card:hover {
+transform: scale(1.05);
+filter: brightness(1.1);
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.card {
+background-color: white;
+padding: 15px;
+width: 220px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.card:hover {
+transform: scale(1.03);
+}
+
+.card summary {
+font-weight: bold;
+font-size: 18px;
+color: #0078D7;
+list-style: none;
+}
+
+.card p {
+margin-top: 10px;
+}
+
+.card img {
+width: 100%;
+margin-top: 10px;
+border-radius: 6px;
+}
+.atalhos {
+background-image: url("../img/teclado.png");
+}
+
+.hardware {
+background-image: url("../img/computador.png");
+}
+
+.software {
+background-image: url("../img/windows.png");
+}
+
+.instalacao {
+background-image: url("../img/instalacao.png");
+}
+
+.seguranca {
+background-image: url("../img/seguranca.png");
+}
+.hardware-cards {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+margin-top: 30px;
+justify-content: center;
+}
+
+.hardware-card {
+background-color: white;
+width: 250px;
+padding: 20px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+transition: 0.3s ease;
+}
+
+.hardware-card:hover {
+transform: translateY(-5px);
+}
+
+.hardware-card img {
+width: 100%;
+height: 150px;
+object-fit: contain;
+margin-bottom: 15px;
+}
+.software-cards {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+margin-top: 30px;
+justify-content: left;
+}
+
+.software-card {
+background-color: white;
+width: 250px;
+padding: 20px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+transition: 0.3s ease;
+}
+
+.software-card:hover {
+transform: translateY(-5px);
+}
+.software-card img {
+width: 100%;
+height: 150px;
+object-fit: contain;
+margin-bottom: 15px;
+}
+.tutorial {
+margin-top: 50px;
+}
+
+.tutorial-box {
+background-color: white;
+padding: 20px;
+margin-bottom: 25px;
+border-radius: 12px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.tutorial-box h3 {
+margin-top: 0;
+color: #0078D7;
+}
+
+.tutorial-box ol {
+padding-left: 20px;
+}
+.tutorial {
+margin-top: 50px;
+}
+
+.tutorial-item {
+background-color: white;
+padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 12px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+transition: 0.3s ease;
+}
+
+.tutorial-item summary {
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+color: #0078D7;
+}
+
+.tutorial-item[open] {
+background-color: #f8fbff;
+}
+
+.step {
+margin-top: 15px;
+}
+
+.step img {
+width: 100%;
+max-width: 500px;
+margin-top: 10px;
+border-radius: 8px;
+}
+.rating {
+font-size: 30px;
+cursor: pointer;
+margin-top: 10px;
+justify-content: center;
+}
+form {
+background-color: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+max-width: 500px;
+}
+
+label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+textarea {
+width: 100%;
+margin-top: 8px;
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #ccc;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #0078D7;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #005fa3;
+}
+
+.rating {
+margin-top: 10px;
+}
+.star {
+color: #ccc;
+transition: 0.2s;
+}
+
+.star.selected {
+color: gold;
+}
+
+.star:hover,
+.star:hover ~ .star {
+color: #ccc;
+}
+@media (max-width: 768px) {
+
+.menu-cards {
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-card {
+    width: 90%;
+    height: 200px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>guia do Windows para Iniciantes</title>
+</head>
+<body>
+
+<header>
+    <h1>Guia Prático de Informática</h1>
+    <nav>
+
+    <a href="index.html">Início</a>
+    <a href="atalhos.html">Atalhos</a>
+    <a href="hardware.html">Hardware</a>
+    <a href="software.html">Software</a>
+    <a href="instalacao.html">Instalação</a>
+    <a href="seguranca.html">Segurança</a>
+
+    </nav>
+</header>
+
+<main>
+    <>
+
+<h2>Instalação do Windows</h2>
+
+    <p>
+    A instalação do Windows é o processo de colocar o sistema operacional
+    no computador. Isso pode ser necessário quando o sistema apresenta erros
+    ou quando o computador é novo.
+    </p>
+
+<section class="tutorial">
+
+    <details class="tutorial-item">
+    <summary>1. Preparar o pendrive de instalação</summary>
+
+    <div class="step">
+        <p>Baixe a ferramenta oficial no site da Microsoft.</p>
+        <img src="img/instalacao/rufus-passo1.png" alt="Download da ferramenta">
+        <img src="img/instalacao/rufus-passo1-2.png" alt="Download da ferramenta">
+    </div>
+
+    <div class="step">
+        <p>Tenha a imagem ISO do Windows 10 ou 11.</p>
+        <img src="img/instalacao/iso-passo1.png" alt="Imagem ISO do Windows">
+        <img src="img/instalacao/iso-passo1-2.png" alt="Imagem ISO do Windows">
+        <img src="img/instalacao/iso-passo1-3.png" alt="Imagem ISO do Windows">
+        <p><strong>Observação:</strong> Certifique-se de ter baixado a imagem ISO correta do Windows no site oficial da Microsoft.</p>
+    </div>
+
+    <div class="step">
+        <p>Insira um pendrive vazio (mínimo 8GB).</p>
+        <img src="img/instalacao/rufus-passo2.png" alt="Pendrive conectado">
+        <p>selecione o pendrive na ferramenta Rufus.</p>
+        <img src="img/instalacao/rufus-passo2-2.png" alt="Selecionando pendrive">
+        <p>Escolha a imagem ISO do Windows.</p>
+        <img src="img/instalacao/rufus-passo2-3.png" alt="Selecionando imagem ISO">
+        <p><strong>Observação:</strong> Todos os dados do pendrive serão apagados durante esse processo. Certifique-se de fazer backup dos arquivos importantes antes de continuar.</p>
+        <img src="img/instalacao/rufus-passo2-4.png" alt="Configurações do Rufus">
+        <p>selecione o tipo de dispositivo de inicialização (MBR ou UEFI), MBR para computadores mais antigos, e UEFI para computadores mais recentes.</p>
+        <P>após configurar, clique em "Iniciar".</P>
+        <p>quando o processo terminar, o pendrive estará pronto para instalar o Windows.</p>
+        <img src="img/instalacao/rufus-passo2-5.png" alt="Pendrive pronto">
+    </div>
+
+    <div class="step">
+        <p>Execute a ferramenta e crie o pendrive bootável.</p>
+        <img src="img/instalacao/rufus-passo3.png" alt="Criando mídia de instalação">
+    </div>
+
+    </details>
+
+
+    <details class="tutorial-item">
+    <summary>2. Iniciar pelo pendrive</summary>
+
+    <div class="step">
+        <p>Reinicie o computador.</p>
+    </div>
+
+    <div class="step">
+        <p>Pressione a tecla de boot (F2, F12 ou DEL dependendo do modelo).</p>
+        <img src="img/instalacao/bios-passo1.png" alt="Pressionar tecla de boot">
+        <p>encontre a opção de inicialização (Boot Options)</p>
+    </div>
+
+    <div class="step">
+        <p>Selecione o pendrive como dispositivo de inicialização.</p>
+        <img src="img/instalacao/bios-passo2.png" alt="Selecionar pendrive no boot">
+    </div>
+
+    <div class="step"
+        <p>elecione a função save configuration and exit</p>
+        <img src="img/instalacao/bios-passo3.png" alt="Salvar e sair da BIOS">
+    </div>
+
+    </details>
+
+
+    <details class="tutorial-item">
+    <summary>3. Instalar o Windows</summary>
+
+    <div class="step">
+        <p>Escolha o idioma e clique em "Instalar agora".</p
+        <img src="img/instalacao/windows-passo1.png" alt="Tela de instalação do Windows">
+    </div>
+
+    <div class="step">
+        <p>Selecione a versão do Windows.</p>
+        <img src="img/instalacao/windows-passo1-2.png" alt="Selecionar versão do Windows">
+    </div>
+
+    <div class="step">
+        <p>Aceite os termos de licença.</p>
+        <img src="img/instalacao/windows-passo1-3.png" alt="Aceitar termos de licença">
+        <p>se tiver uma chave de ativação válida, selecione a opção "Inserir chave de ativação".</p>
+        <p>se não tiver uma chave de ativação, selecione a opção "Não tenho uma chave de produto".</p>
+    </div>
+
+    <div class="step">
+        <p>Escolha o disco onde será instalado.</p>
+        <img src="img/instalacao/windows-passo1-4.png" alt="Escolher disco para instalação">
+        <p>se necessário, formate o disco para garantir uma instalação limpa.</p>
+    </div>
+
+    <div class="step">
+        <p>Aguarde o processo finalizar.</p>
+        <img src="img/instalacao/windows-passo1-5.png" alt="Instalação em andamento">
+        <P>e pronto seu Windows estará instalado!</P>
+    </div>
+
+    </details>
+
+
+    <details class="tutorial-item">
+    <summary>Cuidados Importantes</summary>
+
+    <div class="step">
+        <p>Faça backup dos seus arquivos antes de instalar.</p>
+    </div>
+
+    <div class="step">
+        <p>Utilize sempre a ferramenta oficial da Microsoft.</p>
+    </div>
+
+    <div class="step">
+        <p>Tenha uma chave de ativação válida.</p>
+    </div>
+
+    </details>
+
+    <p><strong>Observação:</strong> Caso o usuário não se sinta seguro para realizar a instalação, recomenda-se procurar um profissional qualificado.</p>
+
+</section>
+
+</main>
+</body>
+</html>
