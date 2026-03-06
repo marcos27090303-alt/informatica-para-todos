@@ -317,3 +317,11 @@ nav {
 }
 
 }
+footer {
+background-color: #0078D7;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+font-size: 14px;
+}
