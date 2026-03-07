@@ -315,6 +315,18 @@ nav {
     flex-wrap: wrap;
     gap: 10px;
 }
+.avaliacao-item {
+background: white;
+padding: 15px;
+margin-top: 10px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.avaliacao-item span {
+color: gold;
+font-size: 18px;
+}
 
 }
 footer {
