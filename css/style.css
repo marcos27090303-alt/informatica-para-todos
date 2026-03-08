@@ -298,6 +298,28 @@ color: gold;
 .star:hover ~ .star {
 color: #ccc;
 }
+
+.menu-card {
+    width: 90%;
+    height: 200px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+footer {
+background-color: #0078D7;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+font-size: 14px;
+}
+
 @media (max-width: 768px) {
 
 .menu-cards {
@@ -315,25 +337,4 @@ nav {
     flex-wrap: wrap;
     gap: 10px;
 }
-.avaliacao-item {
-background: white;
-padding: 15px;
-margin-top: 10px;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.avaliacao-item span {
-color: gold;
-font-size: 18px;
-}
-
-}
-footer {
-background-color: #0078D7;
-color: white;
-text-align: center;
-padding: 20px;
-margin-top: 40px;
-font-size: 14px;
-}
+}   
