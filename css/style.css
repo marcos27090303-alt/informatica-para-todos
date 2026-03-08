@@ -285,19 +285,7 @@ background-color: #005fa3;
 .rating {
 margin-top: 10px;
 }
-.star {
-color: #ccc;
-transition: 0.2s;
-}
 
-.star.selected {
-color: gold;
-}
-
-.star:hover,
-.star:hover ~ .star {
-color: #ccc;
-}
 
 .menu-card {
     width: 90%;
@@ -309,7 +297,22 @@ nav {
     flex-wrap: wrap;
     gap: 10px;
 }
+.btn-avaliar{
+display:inline-block;
+background-color:#0078D7;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+margin-top:10px;
+transition:0.3s;
+}
 
+.btn-avaliar:hover{
+background-color:#005fa3;
+transform:scale(1.05);
+}
 
 footer {
 background-color: #0078D7;
